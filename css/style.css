@@ -4052,10 +4052,6 @@ img {
     width: 100%;
     display: flex;
   }
-
-  .shows-type-heading {
-    width: 100%;
-  }
   .starbar-typed {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -4396,7 +4392,7 @@ img {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .shows-block {
