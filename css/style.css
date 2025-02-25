@@ -3480,7 +3480,7 @@ img {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 300px;
   display: flex;
 }
 
@@ -4336,6 +4336,7 @@ img {
     align-items: center;
     width: 100%;
     overflow: hidden;
+    
   }
 
   .music-heading {
