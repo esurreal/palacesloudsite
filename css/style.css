@@ -4334,7 +4334,7 @@ img {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 300px;
     overflow: hidden;
     
   }
