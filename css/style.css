@@ -3480,7 +3480,7 @@ img {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  width: 90%;
+  width: 100%;
   display: flex;
 }
 
@@ -4334,7 +4334,7 @@ img {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
   }
 
