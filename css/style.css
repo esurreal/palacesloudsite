@@ -779,6 +779,15 @@ textarea.w-select {
   display: none !important;
 }
 
+.starbar-typed {
+  text-align: center;
+  color:rgb(184, 184, 184)
+}
+
+.starBarPoster {
+  width:25%;
+}
+
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -844,6 +853,10 @@ textarea.w-select {
     width: 100%;
     left: auto;
     right: auto;
+  }
+
+  .starBarPoster {
+    width: 75%;
   }
 }
 
@@ -4041,6 +4054,12 @@ img {
 
   .shows-type-heading {
     width: 100%;
+  }
+  .starbar-typed {
+    text-align: center;
+  }
+  .img star-bar {
+    width:5px ;
   }
 
   .videos-heading {
