@@ -781,11 +781,12 @@ textarea.w-select {
 
 .starbar-typed {
   text-align: center;
-  color:rgb(184, 184, 184)
+  color: rgb(184, 184, 184);
+  margin-bottom: 5rem;
 }
 
 .starBarPoster {
-  width:25%;
+  width: 25%;
 }
 
 @media screen and (max-width: 991px) {
@@ -3543,7 +3544,7 @@ img {
 .shows-type-heading {
   color: #9aadb2;
   text-align: center;
-  font-family: Exo, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .shows-block {
@@ -4057,9 +4058,12 @@ img {
   }
   .starbar-typed {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10rem;
+    color: #9aadb2;
   }
   .img star-bar {
-    width:5px ;
+    width: 5px;
   }
 
   .videos-heading {
