@@ -3249,6 +3249,20 @@ img {
   border-color: #90f;
 }
 
+.div-shows {
+  border: 3px solid red;
+  border-radius: 11px;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  height: 48px;
+  display: flex;
+}
+
+.div-shows:hover {
+  border-color: #b0f;
+}
+
 .div-merch {
   border: 3px solid red;
   border-radius: 11px;
@@ -3753,6 +3767,7 @@ img {
     justify-content: flex-start;
     align-items: center;
     width: auto;
+    height: 100vh;
     display: block;
     position: absolute;
     overflow: hidden;
@@ -3854,6 +3869,10 @@ img {
 
   .shows-type-heading {
     font-size: 25px;
+  }
+
+  .div-shows {
+    border-style: none;
   }
 
   .div-videos {
@@ -4045,6 +4064,10 @@ img {
     display: flex;
   }
 
+  .div-shows {
+    border-style: none;
+  }
+
   .shows-heading {
     flex-flow: column;
     justify-content: flex-start;
@@ -4165,6 +4188,7 @@ img {
     justify-content: flex-start;
     align-items: center;
     width: auto;
+    height: 100vh;
     max-width: 100vw;
     display: flex;
   }
@@ -4336,7 +4360,6 @@ img {
     align-items: center;
     width: 100%;
     overflow: hidden;
-    
   }
 
   .music-heading {
@@ -4408,6 +4431,10 @@ img {
   }
 
   .div-videos {
+    border-style: none;
+  }
+
+  .div-shows {
     border-style: none;
   }
 
