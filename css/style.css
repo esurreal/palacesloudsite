@@ -2169,7 +2169,7 @@ p {
 .nav-link-4,
 .nav-link-5,
 .nav-link-5.w--current {
-  color: red;
+  color: rgb(192, 0, 0);
 }
 .field-label,
 .heading,
@@ -2231,7 +2231,7 @@ p {
 .div-block-6,
 .div-block-7,
 .div-block-8 {
-  border: 3px solid red;
+  border: 3px solid rgb(106, 41, 41);
   border-radius: 11px;
   justify-content: center;
   align-items: center;
@@ -2311,15 +2311,15 @@ p {
   inset: 0% 0% auto;
 }
 .nav-home {
-  background-image: url("../images/bandcamp-20red-2048px.png");
-  border: 3px solid red;
+  background-image: url("../images/bandcampDarkRed48px.png");
+  border: 3px solid rgb(105, 0, 0);
   border-radius: 11px;
   width: 48px;
   height: 48px;
 }
 .nav-insta,
 .nav-youtube {
-  border: 3px solid red;
+  border: 3px solid rgb(105, 0, 0);
   background-size: cover;
   width: 48px;
   height: 48px;
@@ -2333,7 +2333,7 @@ p {
   border-color: #b0f;
 }
 .navbar-container2 {
-  z-index: auto;
+  z-index: 999;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-content: center;
@@ -2347,16 +2347,17 @@ p {
 }
 .navbar-container2:active {
   object-fit: fill;
-  border: 0 solid #0000;
+  border: 0 solid rgba(0, 0, 0, 0);
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 999;
 }
 .menu-button-2:active,
 .nav-facebook,
 .nav-insta,
 .nav-youtube {
-  background-color: red;
+  background-color: rgb(105, 0, 0);
 }
 .nav-youtube {
   grid-column-gap: 0px;
@@ -2394,7 +2395,7 @@ p {
   background-image: url("../images/5282541_fb_social-20media_facebook_facebook-20logo_social-20network_icon.png");
   background-position: 50%;
   background-size: cover;
-  border: 3px solid red;
+  border: 3px solid rgb(105, 0, 0);
   border-radius: 11px;
   width: 48px;
   height: 48px;
@@ -2409,7 +2410,7 @@ p {
 .div-contact,
 .div-music,
 .div-videos {
-  border: 3px solid red;
+  border: 3px solid rgb(105, 0, 0);
   border-radius: 11px;
   justify-content: center;
   align-items: center;
@@ -2433,7 +2434,7 @@ p {
 }
 .div-merch,
 .div-shows {
-  border: 3px solid red;
+  border: 3px solid rgb(105, 0, 0);
   border-radius: 11px;
   justify-content: center;
   align-items: center;
