@@ -3425,6 +3425,7 @@ p {
   .submit-button {
     width: 33%;
     overflow: visible;
+    font-size: 20px;
   }
   .album-cover-container {
     grid-column-gap: 20px;
