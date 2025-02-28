@@ -2969,7 +2969,9 @@ p {
   .background-video-2 {
     margin-top: 2px;
   }
-}
+  iframe {
+    width: 90vw;
+  }
 @media screen and (max-width: 767px) {
   .w-hidden-main,
   .w-hidden-medium {
