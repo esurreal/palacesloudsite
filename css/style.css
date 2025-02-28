@@ -2231,7 +2231,7 @@ p {
 .div-block-6,
 .div-block-7,
 .div-block-8 {
-  border: 3px solid rgb(106, 41, 41);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 11px;
   justify-content: center;
   align-items: center;
@@ -2311,7 +2311,7 @@ p {
   inset: 0% 0% auto;
 }
 .nav-home {
-  background-image: url("../images/bandcampDarkRed48px.png");
+  background-image: url("../images/bandcampBright48px.png");
   border: 3px solid rgb(105, 0, 0);
   border-radius: 11px;
   width: 48px;
@@ -2357,7 +2357,7 @@ p {
 .nav-facebook,
 .nav-insta,
 .nav-youtube {
-  background-color: rgb(105, 0, 0);
+  background-color: rgb(192, 0, 0);
 }
 .nav-youtube {
   grid-column-gap: 0px;
