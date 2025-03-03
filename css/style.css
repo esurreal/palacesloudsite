@@ -384,12 +384,6 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-.div-pastShows {
-  font-size: 2rem;
-  font-weight:bold;
-  font-family:monospace;
-  margin-bottom: -.7em;
-}
 .div-pastShowsButton {
   background-color:rgba(0, 0, 0, 0.514);
   border-style: solid;
@@ -2996,6 +2990,10 @@ p {
   }
 .div-pastShowsButton {
   font-size: 20px;
+}
+.pastTextWrapper {
+  display: flex;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .w-hidden-main,
