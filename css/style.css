@@ -391,16 +391,20 @@ fieldset {
   margin-bottom: -.7em;
 }
 .div-pastShowsButton {
-  background-color:none;
+  background-color:rgba(0, 0, 0, 0.514);
   border-style: solid;
+  align-items: center;
   border-radius: 50px;
   border-color: rgb(148, 0, 0);
-  text-align: center;
   display: inline-block;
-  font-size: 1em;
+  font-size: 25px;
   margin: 1em;
   cursor: pointer;
 }
+.div-pastShowsButton:hover {
+  border-color: purple;
+}
+
 [type="button"],
 [type="reset"],
 button {
@@ -660,7 +664,7 @@ h6 {
 }
 .starbar-typed {
   color: #b8b8b8;
-  margin-bottom: 5rem;
+  margin-bottom: 5rem ;
 }
 .w-widget {
   position: relative;
@@ -2990,12 +2994,8 @@ p {
   iframe {
     width: 90vw;
   }
-  .div-pastShows {
-    font-size: 24px;
-    font-weight:bold;
-    font-family:monospace;
-    margin-bottom: -.7em;
-    text-align: center;
+.div-pastShowsButton {
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .w-hidden-main,
@@ -3189,7 +3189,7 @@ p {
   .starbar-typed {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
     color: #9aadb2;
     font-size: 25px;
   }
