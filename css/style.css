@@ -384,6 +384,23 @@ fieldset {
   margin: 0;
   padding: 0;
 }
+.div-pastShows {
+  font-size: 2rem;
+  font-weight:bold;
+  font-family:monospace;
+  margin-bottom: -.7em;
+}
+.div-pastShowsButton {
+  background-color:none;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: rgb(148, 0, 0);
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  margin: 1em;
+  cursor: pointer;
+}
 [type="button"],
 [type="reset"],
 button {
