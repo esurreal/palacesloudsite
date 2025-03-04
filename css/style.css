@@ -3197,6 +3197,10 @@ p {
   .img star-bar {
     width: 5px;
   }
+}
+.div-pastShowsButton:hover {
+  border-color: rgb(105, 0, 0);
+}
   .form-block,
   .kellys-poster {
     width: 75%;
