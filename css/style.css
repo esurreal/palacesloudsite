@@ -2348,6 +2348,18 @@ p {
   width: 48px;
   height: 48px;
 }
+.videoWrapper {
+  background-color: white;
+}
+.div-Videos {
+  background-color: #082939;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
 .div-merch:hover,
 .div-shows:hover,
 .div-videos:hover,
