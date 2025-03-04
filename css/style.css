@@ -1370,6 +1370,9 @@ h6 {
   -webkit-text-fill-color: inherit;
   background-clip: border-box;
 }
+.palaces-name-block-pastShows {
+  margin-top: 5%;
+}
 .w--nav-link-open {
   display: block;
   position: relative;
@@ -3211,6 +3214,9 @@ p {
   }
   .w-hidden-tiny {
     display: none !important;
+  }
+  .palaces-name-block-pastShows {
+    margin-top: 55%;
   }
   .footer,
   .form-2,
