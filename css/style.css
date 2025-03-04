@@ -388,7 +388,7 @@ fieldset {
   background-color:rgba(0, 0, 0, 0.514);
   border-style: solid;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 10px;
   border-color: rgb(148, 0, 0);
   display: inline-block;
   font-size: 25px;
