@@ -2958,7 +2958,7 @@ p {
     min-width: 0;
     height: auto;
     min-height: 0;
-    margin-top: -40px;
+    margin-top: -24px;
     padding: 24px 20px 23px 21px;
     position: static;
     overflow: hidden;
@@ -3414,12 +3414,11 @@ p {
   .icon {
     z-index: 999;
     max-width: none;
-    margin: -40px 0 12px -1px;
+    margin: -24px 0 12px -1px;
     padding: 24px 20px 23px 21px;
     position: relative;
     overflow: visible;
     font-size: 45px;
-    background-color: transparent;
   }
   .navbar-container {
     flex-flow: column;
