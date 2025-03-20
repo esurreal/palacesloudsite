@@ -3419,6 +3419,7 @@ p {
     position: relative;
     overflow: visible;
     font-size: 45px;
+    background-color: transparent;
   }
   .navbar-container {
     flex-flow: column;
