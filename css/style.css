@@ -3418,6 +3418,7 @@ p {
     padding: 24px 20px 23px 21px;
     position: relative;
     overflow: visible;
+    font-size: 45px;
   }
   .navbar-container {
     flex-flow: column;
