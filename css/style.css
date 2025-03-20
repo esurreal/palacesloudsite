@@ -3414,7 +3414,7 @@ p {
   .icon {
     z-index: 999;
     max-width: none;
-    margin: -24px 0 12px -1px;
+    margin: -40px 0 12px -1px;
     padding: 24px 20px 23px 21px;
     position: relative;
     overflow: visible;
