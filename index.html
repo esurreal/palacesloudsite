@@ -171,51 +171,31 @@
       <div class="email-headings-box">
         <h1 class="heading">Palaces in your box</h1>
         <h4 class="heading-4">
-          Show announcements, merch, giveaways, and more
+          Show announcements, new merch, giveaways, and more
         </h4>
       </div>
-      <section class="input-form-section">
-        <div class="form-block w-form">
-          <form
-            id="email-form"
-            name="email-form"
-            data-name="Email Form"
-            method="get"
-            class="form-2"
-            data-wf-page-id="67b38d718bb32132b20d20f3"
-            data-wf-element-id="aa656424-acde-5d03-36d2-c467f29d6f50"
-            data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
-          >
-            <input
-              class="text-field w-input"
-              maxlength="256"
-              name="email"
-              data-name="Email"
-              placeholder="Email Address"
-              type="email"
-              id="email"
-              required=""
-            /><input
-              type="submit"
-              data-wait="Please wait..."
-              class="submit-button w-button"
-              value="subscribe"
-            />
-          </form>
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
+      <section class="contact-section">      
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      
+          <input type="hidden" name="access_key" value="e9757f22-9696-4fb0-8032-e68719bb08fb" />
+          <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+          <input type="hidden" name="from_name" value="My Website" />
+          <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+      
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="email" class="form-label"></label>
+              <input id="email" name="email" class="form-input" placeholder="Email Address" type="email" />
+            </div><button class="form-submit" type="submit">Subscribe</button>
+          </div>          
+        </form>      
       </section>
     </div>
     <div class="shows-block">
       <h1 id="showsLink" class="shows-heading">SHOWS</h1>
       <img
         class="starBarPoster"
-        src="images\Star Bar with midnight crush.png"
+        src="images\Star Bar Midnight Crush.png"
         loading="lazy"
         sizes="(max-width: 479px) 84vw, (max-width: 767px) 75vw, 320px"
         sizes="(max-width: 479px) 84vw, (max-width: 767px) 75vw, 320px"
@@ -228,7 +208,7 @@
       />
       <h2 class="starbar-typed">
         May 10 2025<br />7:00pm @ The Star Bar Atlanta<br />w/ Khloröform,
-        Midnight Crush, Psychic Death<br />
+        Midnight Crush, Pain<br />
       </h2>
       <div class="div-pastShowsButton">
         <a href="pastShows.html" class="nav-link-3 w-nav-link"

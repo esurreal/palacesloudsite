@@ -388,12 +388,13 @@ fieldset {
   background: transparent;
   border-style: solid;
   align-items: center;
-  border-radius: 85px;
+  border-radius: 10px;
   border-color: rgb(136, 136, 136);
   display: inline-block;
   font-size: 25px;
   margin: 1em;
   cursor: pointer;
+  filter:drop-shadow(16px 12px 4px #000);
 }
 .div-pastShowsButton:hover {
   border-color: rgb(255, 255, 255);
@@ -482,6 +483,24 @@ textarea.w-select {
   margin-bottom: 0;
   font-weight: 400;
   display: inline-block;
+}
+.form-group-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.form-submit {
+  color: rgb(33, 0, 33);
+  height: 1.6em;
+  margin-left: 3px;
+  margin-top: 5px;
+  font-size: 1rem;
+  background-color: gray;
+}
+.form-submit:hover {
+  background-color: transparent;
+  color: #9aadb2;
 }
 .w-file-upload,
 .w-radio {
@@ -1247,6 +1266,11 @@ h6 {
   .w-lightbox-control:hover {
     opacity: 1;
   }
+}
+.form-input {
+  width: 12rem;
+  font-size: 1rem;
+  background-color: transparent;
 }
 .w-lightbox-inactive,
 .w-lightbox-inactive:hover {
