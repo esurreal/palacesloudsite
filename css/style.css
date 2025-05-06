@@ -384,6 +384,16 @@ fieldset {
   margin: 0;
   padding: 0;
 }
+.lineBreak2 {
+  margin-top: 3rem;
+}
+.govTyped {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  color: #9aadb2;
+  font-size: 30px;
+}
 .div-pastShowsButton {
   background: transparent;
   border-style: solid;
