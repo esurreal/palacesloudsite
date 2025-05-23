@@ -218,6 +218,55 @@ td, th {
 html {
   height: 100%;
 }
+.div-pastShowsButton {
+  background: transparent;
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+  border-color: rgb(136, 136, 136);
+  display: inline-block;
+  font-size: 25px;
+  margin: 1em;
+  cursor: pointer;
+  filter: drop-shadow(16px 12px 4px #000);
+}
+.div-pastShowsButton:hover {
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(48, 48, 48, 0.362);
+}
+.pastTextWrapper {
+  display: flex;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.govTyped {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  color: #9aadb2;
+  font-size: 30px;
+}
+.form-submit {
+  color: rgb(33, 0, 33);
+  height: 1.6em;
+  margin-left: 3px;
+  margin-top: 5px;
+  font-size: 1rem;
+  background-color: gray;
+}
+.form-submit:hover {
+  background-color: transparent;
+  color: #9aadb2;
+}
+.button.submit {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: block;
+}
 
 body {
   color: #333;
@@ -2438,7 +2487,9 @@ img {
 .main-image {
   margin-bottom: 50px;
 }
-
+.palacesName {
+  font-family: oldclaudelpstd;
+}
 .form {
   color: #fff;
   width: 60%;
@@ -2446,7 +2497,17 @@ img {
   margin-right: auto;
   display: block;
 }
-
+.form-group-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.form-input {
+  width: 12rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
 .left-column {
   color: #fff;
   padding-right: 40px;
@@ -3380,7 +3441,7 @@ img {
 .email-class {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #210021;
+  background-color: #1a0028;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -3388,6 +3449,7 @@ img {
   margin-top: 0;
   display: flex;
 }
+
 
 .heading {
   color: #9aadb2;
@@ -3474,14 +3536,14 @@ img {
   display: flex;
 }
 
-.email-headings-box {
+.email-headings-box,
+.main-heading-block {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
   display: flex;
 }
-
 .bold-text {
   color: #fff;
   font-size: 4rem;
