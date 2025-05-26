@@ -218,6 +218,55 @@ td, th {
 html {
   height: 100%;
 }
+.div-pastShowsButton {
+  background: transparent;
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+  border-color: rgb(136, 136, 136);
+  display: inline-block;
+  font-size: 25px;
+  margin: 1em;
+  cursor: pointer;
+  filter: drop-shadow(16px 12px 4px #000);
+}
+.div-pastShowsButton:hover {
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(48, 48, 48, 0.362);
+}
+.pastTextWrapper {
+  display: flex;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.govTyped {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  color: #9aadb2;
+  font-size: 30px;
+}
+.form-submit {
+  color: rgb(33, 0, 33);
+  height: 1.6em;
+  margin-left: 3px;
+  margin-top: 5px;
+  font-size: 1rem;
+  background-color: gray;
+}
+.form-submit:hover {
+  background-color: transparent;
+  color: #9aadb2;
+}
+.button.submit {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: block;
+}
 
 body {
   color: #333;
@@ -2438,7 +2487,9 @@ img {
 .main-image {
   margin-bottom: 50px;
 }
-
+.palacesName {
+  font-family: oldclaudelpstd;
+}
 .form {
   color: #fff;
   width: 60%;
@@ -2446,7 +2497,17 @@ img {
   margin-right: auto;
   display: block;
 }
-
+.form-group-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.form-input {
+  width: 12rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
 .left-column {
   color: #fff;
   padding-right: 40px;
@@ -3380,7 +3441,7 @@ img {
 .email-class {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #210021;
+  background-color: #1a0028;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -3388,6 +3449,7 @@ img {
   margin-top: 0;
   display: flex;
 }
+
 
 .heading {
   color: #9aadb2;
@@ -3416,7 +3478,6 @@ img {
 .heading-4 {
   color: #9aadb2;
   margin-top: -1px;
-  font-size: 18px;
 }
 
 .field-label {
@@ -3475,14 +3536,14 @@ img {
   display: flex;
 }
 
-.email-headings-box {
+.email-headings-box,
+.main-heading-block {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
   display: flex;
 }
-
 .bold-text {
   color: #fff;
   font-size: 4rem;
@@ -3753,7 +3814,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 0;
-  display: none;
+  display: flex;
 }
 
 .navlinks {
@@ -3955,85 +4016,6 @@ img {
 
 .right-arrow {
   margin-right: -64px;
-}
-
-.navshows2 {
-  color: #640000;
-  border: 3px solid #640000;
-  border-radius: 11px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 8px;
-  font-size: 20px;
-}
-
-.navshows2:hover {
-  border-color: red;
-}
-
-.navmerch2 {
-  color: #640000;
-  border: 3px solid #640000;
-  border-radius: 11px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 8px;
-  font-size: 20px;
-}
-
-.navmerch2:hover {
-  border-color: red;
-}
-
-.navmusic2 {
-  color: #640000;
-  border: 3px solid #640000;
-  border-radius: 11px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 8px;
-  font-size: 20px;
-}
-
-.navmusic2:hover {
-  border-color: red;
-}
-
-.navvideos2 {
-  color: #640000;
-  border: 3px solid #640000;
-  border-radius: 11px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 8px;
-  font-size: 20px;
-}
-
-.navvideos2:hover {
-  border-color: red;
-}
-
-.navcontact2 {
-  color: #640000;
-  border: 3px solid #640000;
-  border-radius: 11px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 8px;
-  font-size: 20px;
-}
-
-.navcontact2:hover {
-  border-color: red;
-}
-
-.menulinkdesktop {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -4463,8 +4445,7 @@ img {
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    display: none;
+    display: flex;
   }
 
   .navlinks {
@@ -4514,27 +4495,6 @@ img {
 
   .right-arrow {
     margin-right: -64px;
-  }
-
-  .navshows2, .navmerch2, .navmusic2, .navvideos2, .navcontact2 {
-    color: #640000;
-    border: 3px solid #640000;
-    border-radius: 11px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-  }
-
-  .menulinkdesktop {
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
   }
 }
 
@@ -4812,7 +4772,6 @@ img {
     margin-left: -100%;
     padding-top: 140px;
     padding-right: 0;
-    display: flex;
     position: fixed;
     inset: 0%;
   }
@@ -4852,37 +4811,6 @@ img {
     height: 48px;
     margin-top: -73px;
     display: block;
-  }
-
-  .navshows2, .navmerch2, .navmusic2, .navvideos2 {
-    color: #640000;
-    font-size: 20px;
-    display: block;
-  }
-
-  .navcontact2 {
-    color: #640000;
-    font-size: 20px;
-    display: flex;
-  }
-
-  .menulinkdesktop {
-    z-index: 5;
-    grid-column-gap: 18px;
-    grid-row-gap: 18px;
-    background-color: #000000e8;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    margin-top: 0;
-    margin-left: -100%;
-    padding-top: 140px;
-    padding-right: 0;
-    display: none;
-    position: fixed;
-    inset: 0%;
   }
 }
 
@@ -5385,13 +5313,12 @@ img {
   }
 
   .menulink {
-    margin-top: 18.5px;
     margin-left: -100%;
-    padding-top: 0;
+    padding-top: 38px;
   }
 
   .lottie-animation {
-    margin-top: -16px;
+    margin-top: -9px;
   }
 
   .videoblock {
@@ -5408,10 +5335,6 @@ img {
     grid-row-gap: 12px;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-
-  .lottie-animation-2 {
-    margin-top: -54px;
   }
 
   .left-arrow {
@@ -5449,10 +5372,5 @@ img {
     margin-right: auto;
     font-size: 15px;
     inset: 0%;
-  }
-
-  .menulinkdesktop {
-    margin-left: -100%;
-    padding-top: 38px;
   }
 }
