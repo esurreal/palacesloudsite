@@ -4810,7 +4810,7 @@ img {
     min-height: 100vh;
     margin-top: 0;
     margin-left: -100%;
-    padding-top: 140px;
+    padding-top: 0;
     padding-right: 0;
     display: flex;
     position: fixed;
@@ -5387,7 +5387,7 @@ img {
   .menulink {
     margin-top: 0;
     margin-left: -100%;
-    padding-top: 37px;
+    padding-top: 0;
   }
 
   .lottie-animation {
