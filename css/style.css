@@ -487,6 +487,19 @@ button, [type="button"], [type="reset"] {
   border: 0;
 }
 
+.email-class {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #1a0028;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+}
+
+
 .w-form {
   margin: 0 0 15px;
 }
@@ -3377,16 +3390,27 @@ img {
   display: flex;
 }
 
-.email-class {
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: #210021;
-  flex-flow: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  margin-top: 0;
+.form-group-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.form-input {
+  width: 12rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  color: #03274e;
+  background-color: #9aadb2;
 }
 
 .heading {
@@ -3424,9 +3448,55 @@ img {
 }
 
 .submit-button {
-  color: #03274e;
-  background-color: #9aadb2;
+  color: rgb(33, 0, 33);
+  height: 1.6em;
+  margin-left: 3px;
+  margin-top: 6px;
+  font-size: 1rem;
+  background-color: gray;
 }
+
+.submit-button:hover {
+  background-color: transparent;
+  color: #9aadb2;
+}
+
+.div-pastShowsButton {
+  background: transparent;
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+  border-color: rgb(136, 136, 136);
+  display: inline-block;
+  font-size: 25px;
+  margin: 1em;
+  cursor: pointer;
+  filter: drop-shadow(16px 12px 4px #000);
+}
+
+.div-pastShowsButton:hover {
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(48, 48, 48, 0.362);
+}
+
+.pastTextWrapper {
+  display: flex;
+  text-align: center;
+  color: rgb(200, 193, 193);
+  font-weight: bold;
+}
+
+.shows-type-heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  color: #0b424f;
+  font-size: 30px;
+}
+
+
+
+
 
 .album-cover-container {
   grid-column-gap: 29px;
@@ -3686,6 +3756,13 @@ img {
   width: 100%;
   height: 4rem;
   display: flex;
+}
+
+.contact-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
 }
 
 .section-11 {
@@ -4057,6 +4134,8 @@ img {
     margin-top: 0;
     display: flex;
   }
+
+
 
   .main.project-page {
     min-height: 344px;
@@ -4697,6 +4776,7 @@ img {
   .submit-button {
     width: 42%;
     max-width: 100%;
+    margin-left: 10px;
   }
 
   .album-cover-container {
