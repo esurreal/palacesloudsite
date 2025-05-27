@@ -5387,7 +5387,7 @@ img {
   .menulink {
     margin-top: 0;
     margin-left: -100%;
-    padding-top: 0;
+    padding-top: 4px;
   }
 
   .lottie-animation {
