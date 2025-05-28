@@ -4463,7 +4463,7 @@ img {
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0;
     display: none;
   }
 
@@ -4817,7 +4817,7 @@ img {
     min-height: 100vh;
     margin-top: 0;
     margin-left: -100%;
-    padding-top: 119px;
+    padding-top: 98px;
     padding-right: 0;
     display: flex;
     position: fixed;
@@ -4886,7 +4886,7 @@ img {
     width: 100%;
     min-height: 100vh;
     margin-top: 0;
-    margin-left: -100%;
+    margin-left: 0%;
     padding-top: 140px;
     padding-right: 0;
     display: none;
@@ -5403,10 +5403,13 @@ img {
 
   .menulink {
     height: 100vh;
+    min-height: auto;
     margin-top: 0;
     margin-left: -100%;
     padding-top: 0;
+    padding-bottom: 0;
     position: fixed;
+    inset: 0%;
   }
 
   .lottie-animation {
