@@ -2076,7 +2076,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-embed-youtubevideo {
-  background-image: url("../images/youtube-placeholder.2b05e7d68d.svg");
+  background-image: url("https://app-assets.website-files.com/static/youtube-placeholder.2b05e7d68d.svg");
   background-position: 50%;
   background-size: cover;
   width: 100%;
@@ -2387,7 +2387,7 @@ img {
 }
 
 .photo {
-  background-image: url("../images/background-image.svg");
+  background-image: url("https://app-assets.website-files.com/img/background-image.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3044,8 +3044,9 @@ img {
 }
 
 .nav-home {
-  background-image: url("../images/bandcamp-20red-2048px.png");
+  background-image: url("../images/bandcamp-20dark-20red-2048px.png");
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #640000;
   border-radius: 11px;
@@ -3086,17 +3087,17 @@ img {
 }
 
 .nav-link-3 {
-  color: red;
+  color: #980000;
   font-size: 20px;
 }
 
 .nav-link-4 {
-  color: red;
+  color: #980000;
   font-size: 18px;
 }
 
 .nav-link-5 {
-  color: red;
+  color: #980000;
   font-size: 20px;
 }
 
@@ -3110,7 +3111,7 @@ img {
   aspect-ratio: auto;
   -webkit-text-fill-color: inherit;
   object-fit: cover;
-  background-color: red;
+  background-color: #640000;
   background-image: url("../images/you-20tube-2048px.png");
   background-position: 50%;
   background-size: cover;
@@ -3131,7 +3132,7 @@ img {
 }
 
 .nav-insta {
-  background-color: red;
+  background-color: #640000;
   background-image: url("../images/instagram-2048px.png");
   background-position: 0 0;
   background-size: cover;
@@ -3146,7 +3147,7 @@ img {
 }
 
 .nav-facebook {
-  background-color: red;
+  background-color: #640000;
   background-image: url("../images/5282541_fb_social-20media_facebook_facebook-20logo_social-20network_icon.png");
   background-position: 50%;
   background-size: cover;
@@ -3389,6 +3390,68 @@ img {
   display: flex;
 }
 
+.form-group-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.form-input {
+  width: 12rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.submit-button {
+  color: rgb(33, 0, 33);
+  height: 1.6em;
+  margin-left: 3px;
+  margin-top: 6px;
+  font-size: 1rem;
+  background-color: gray;
+}
+
+.submit-button:hover {
+  background-color: transparent;
+  color: #9aadb2;
+}
+
+.div-pastShowsButton {
+  background: transparent;
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+  border-color: rgb(136, 136, 136);
+  display: inline-block;
+  font-size: 25px;
+  margin: 1em;
+  cursor: pointer;
+  filter: drop-shadow(16px 12px 4px #000);
+}
+
+.div-pastShowsButton:hover {
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(48, 48, 48, 0.362);
+}
+
+.pastTextWrapper {
+  display: flex;
+  text-align: center;
+  color: rgb(200, 193, 193);
+  font-weight: bold;
+}
+
+.shows-type-heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  color: #0b424f;
+  font-size: 30px;
+}
+.lineBreak2 {
+  width: 100%;
+}
 .heading {
   color: #9aadb2;
   margin-top: 15px;
@@ -4161,34 +4224,37 @@ img {
     border: 3px solid #640000;
     border-radius: 11px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .nav-link-3:hover {
-    color: #b300ff;
+    color: #ff0004;
+    border-color: red;
   }
 
   .nav-link-4 {
     border: 3px solid #640000;
     border-radius: 11px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
     display: block;
   }
 
   .nav-link-4:hover {
-    color: #b300ff;
+    color: #ff0004;
+    border-color: red;
   }
 
   .nav-link-5 {
     border: 3px solid #640000;
     border-radius: 11px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .nav-link-5:hover {
-    color: #b0f;
+    color: #ff0004;
+    border-color: red;
   }
 
   .div-music {
@@ -4625,9 +4691,34 @@ img {
     margin-top: 26px;
   }
 
-  .nav-link-3, .nav-link-4, .nav-link-5 {
+  .nav-link-3 {
+    color: #980000;
     border-style: none;
-    font-size: 20px;
+    font-size: 28px;
+  }
+
+  .nav-link-3:hover {
+    color: #ff0004;
+  }
+
+  .nav-link-4 {
+    color: #980000;
+    border-style: none;
+    font-size: 28px;
+  }
+
+  .nav-link-4:hover {
+    color: #ff0004;
+  }
+
+  .nav-link-5 {
+    color: #980000;
+    border-style: none;
+    font-size: 28px;
+  }
+
+  .nav-link-5:hover {
+    color: #ff0004;
   }
 
   .social-media-block {
@@ -4779,12 +4870,12 @@ img {
 
   .section-10 {
     z-index: 9;
-    cursor: none;
+    cursor: auto;
     position: relative;
   }
 
   .image-14 {
-    cursor: none;
+    cursor: auto;
     width: 82%;
   }
 
@@ -4796,8 +4887,22 @@ img {
     height: 100%;
   }
 
-  .top2, .mid2, .bottom2 {
+  .top2 {
+    background-color: #980000;
+    width: 36px;
+  }
+
+  .mid2 {
     width: 28px;
+  }
+
+  .bottom2 {
+    background-color: #980000;
+    width: 36px;
+  }
+
+  .mainwrapper {
+    font-size: 32px;
   }
 
   .section-13.nav {
@@ -4862,8 +4967,11 @@ img {
     width: 48px;
     height: 48px;
     margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     display: block;
     position: relative;
+    top: auto;
   }
 
   .navshows2, .navmerch2, .navmusic2, .navvideos2 {
@@ -5015,16 +5123,31 @@ img {
     overflow: visible;
   }
 
-  .nav-link-3, .nav-link-4 {
-    font-size: 20px;
+  .nav-link-3 {
+    color: #980000;
+    font-size: 28px;
+  }
+
+  .nav-link-3:hover {
+    color: #ff0004;
+  }
+
+  .nav-link-4 {
+    color: #980000;
+    font-size: 28px;
   }
 
   .nav-link-4:hover {
-    color: #b300ff;
+    color: #ff0004;
   }
 
   .nav-link-5 {
-    font-size: 20px;
+    color: #980000;
+    font-size: 28px;
+  }
+
+  .nav-link-5:hover {
+    color: #ff0509;
   }
 
   .div-music {
@@ -5358,8 +5481,8 @@ img {
   }
 
   .top2 {
-    background-color: red;
-    width: 28px;
+    background-color: #980000;
+    width: 36px;
     height: .1rem;
     padding-bottom: 0;
     padding-right: 0;
@@ -5376,8 +5499,8 @@ img {
   }
 
   .bottom2 {
-    background-color: red;
-    width: 28px;
+    background-color: #980000;
+    width: 36px;
     height: .1rem;
     padding: 0;
   }
@@ -5401,15 +5524,17 @@ img {
   }
 
   .section-13.nav {
+    display: none;
     position: relative;
   }
 
   .menulink {
+    z-index: 8;
     height: 100vh;
     min-height: auto;
     margin-top: 0;
     margin-left: 0%;
-    padding-top: 0;
+    padding-top: 52px;
     padding-bottom: 0;
     display: none;
     position: fixed;
@@ -5417,9 +5542,10 @@ img {
   }
 
   .lottie-animation {
-    z-index: 7;
+    z-index: 12;
     margin: -6px 0 0;
     padding-bottom: 0;
+    display: block;
     top: auto;
   }
 
@@ -5440,7 +5566,10 @@ img {
   }
 
   .lottie-animation-2 {
-    margin-top: 0;
+    z-index: 1000;
+    margin-top: -7px;
+    display: block;
+    position: absolute;
   }
 
   .left-arrow {
