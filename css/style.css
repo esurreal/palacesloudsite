@@ -3699,6 +3699,9 @@ img {
   color: #9aadb2;
   text-align: center;
   font-family: Exo, sans-serif;
+  background-color: #210021;
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .shows-block {
