@@ -5548,6 +5548,8 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     font-family: PT Serif, serif;
+    border-radius: 0px 20px 0px 20px;
+    border: 2px solid #9aadb2;
     font-size: 20px;
   }
 
@@ -5556,7 +5558,11 @@ img {
     width: 100%;
     overflow: hidden;
   }
-
+  .news-block {
+    background-color: #082939;
+    width: 100%;
+    overflow: hidden;
+  }
   .youtube {
     width: 90%;
     max-width: 90%;
