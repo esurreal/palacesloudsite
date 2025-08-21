@@ -3581,10 +3581,10 @@ img {
   text-align: center;
   font-family: Exo, sans-serif;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 24px;
   background-color: #210021;
   padding: 16px;
-  border-radius: 0px 20px 0px 20px;
+  border-radius: 0px 0px 0px 0px;
   border: 2px solid #9aadb2;
   filter: drop-shadow(16px 12px 4px #000)
 }
@@ -3603,11 +3603,21 @@ img {
 }
 
 .shows-type-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  width: 50%;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1rem;
   color: #0b424f;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.tourPoster {
+  width: 50%;
+  margin-top: 2rem;
 }
 .lineBreak2 {
   width: 100%;
@@ -3738,7 +3748,7 @@ img {
   font-family: Exo, sans-serif;
   background-color: #210021;
   padding: 16px;
-  border-radius: 0px 20px 0px 20px;
+  border-radius: 0px 0px 0px 0px;
   border: 2px solid #9aadb2;
   filter: drop-shadow(16px 12px 4px #000)
 }
@@ -4012,6 +4022,22 @@ img {
 }
 
 .youtubelink:hover {
+  border-color: red;
+}
+
+.nav-tiktok {
+  background-color: #640000;
+  background-image: url("../images/tiktokicon.png");
+  background-position: 50%;
+  background-size: contain;
+  border: 3px solid #640000;
+  border-radius: 11px;
+  width: 48px;
+  height: 48px;
+  padding: 20px;
+}
+
+.nav-tiktok:hover {
   border-color: red;
 }
 
@@ -5548,7 +5574,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     font-family: PT Serif, serif;
-    border-radius: 0px 20px 0px 20px;
+    border-radius: 0px 0px 0px 0px;
     border: 2px solid #9aadb2;
     font-size: 20px;
   }
@@ -5717,6 +5743,11 @@ img {
   .section-13.nav {
     display: none;
     position: relative;
+  }
+
+  .tourPoster {
+    width: 100%;
+    margin-top: 2rem;
   }
 
   .menulink {
