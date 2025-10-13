@@ -3570,6 +3570,7 @@ img {
   justify-content: center;
   flex-flow: column;
   width: 100%;
+  background-image: url("/images/blackGrayBackground.jpg");
   background-color: #32000095;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3757,6 +3758,7 @@ img {
 
 .shows-block {
   background-color: #32000095;
+  background-image: url("/images/blackGrayBackground.jpg");
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -5582,11 +5584,13 @@ img {
   }
 
   .shows-block {
+    background-image: url("/images/blackGrayBackground.jpg");
     background-color: #32000095;
     width: 100%;
     overflow: hidden;
   }
   .news-block {
+    background-image: url("/images/blackGrayBackground.jpg");
     background-color: #32000095;
     width: 100%;
     overflow: hidden;
