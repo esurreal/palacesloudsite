@@ -5617,6 +5617,11 @@ img {
     overflow: hidden;
   }
 
+  .sunhuntingVid {
+    height: 12rem;
+    width: 90%;
+  }
+
   .kellys-poster {
     width: 85%;
     max-width: 85%;
