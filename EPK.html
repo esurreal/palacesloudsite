@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Palaces — EPK</title>
+    <style>
+      :root {
+        --accent: #7b2f4a; /* purple/red accent pulled from album vibe */
+        --bg: #0f0f0f;
+        --panel: #111214;
+        --muted: #bdbdbd;
+        --white: #ffffff;
+        --max-width: 900px;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(180deg, #070707 0%, #0f0f0f 100%);
+        color: var(--white);
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .wrap {
+        width: 100%;
+        display: flex;
+        max-width: var(--max-width);
+        flex-flow: column;
+        align-items: center;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+      }
+      .logo {
+        height: 84px;
+      }
+      .hero {
+        margin-top: 18px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+      }
+      .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .content {
+        display: grid;
+        grid-template-columns: 1fr 320px;
+        gap: 28px;
+        margin-top: 22px;
+      }
+      @media (max-width: 880px) {
+        .content {
+          grid-template-columns: 1fr;
+        }
+      }
+      .panel {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.02),
+          rgba(255, 255, 255, 0.01)
+        );
+        padding: 18px;
+        border-radius: 8px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0;
+        letter-spacing: 1px;
+      }
+      h2 {
+        margin: 0 0 8px 0;
+        font-size: 16px;
+      }
+      p {
+        color: var(--muted);
+        line-height: 1.45;
+      }
+      .meta {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .chip {
+        background: rgba(255, 255, 255, 0.03);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .album-art {
+        width: 100%;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .album-art img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .press-quote {
+        font-style: italic;
+        color: #e6e6e6;
+        border-left: 3px solid var(--accent);
+        padding-left: 12px;
+        margin-bottom: 12px;
+      }
+      .members {
+        list-style: none;
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+      }
+      .members li {
+        padding: 2px 0;
+        color: var(--muted);
+      }
+      .links a {
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 6px;
+        color: var(--white);
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.03);
+        padding: 8px 10px;
+        border-radius: 6px;
+      }
+      .contact {
+        margin-top: 12px;
+        color: var(--muted);
+      }
+      .download-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+      }
+      .btn {
+        background: var(--accent);
+        color: var(--white);
+        padding: 10px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+      .tagline {
+        font-weight: 700;
+        color: var(--white);
+        margin-top: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img
+          class="logo"
+          src="/images/logo red stained.png"
+          alt="Palaces Logo"
+        />
+      </header>
+      <div>
+        <div class="tagline">Post-Hardcore / Metal — Atlanta, GA</div>
+      </div>
+
+      <div class="hero panel">
+        <img src="/images/bandPhoto.png" alt="Palaces — Band Photo" />
+      </div>
+
+      <div class="content">
+        <main>
+          <section class="panel">
+            <h2>About</h2>
+            <p>
+              Forged in the heavy underground of Atlanta,
+              <strong>Palaces</strong> blend the emotional weight of
+              post-hardcore with the crushing force of modern metal. Their sound
+              is a collision of towering riffs, serrated rhythms, and raw
+              catharsis — balancing chaos and atmosphere with surgical
+              precision. Known for intense live performances, Palaces craft
+              music that hits as hard psychologically as it does physically.
+            </p>
+
+            <h2 style="margin-top: 14px">Press Quotes</h2>
+            <div class="press-quote">
+              “The chaos is simply fascinating. The way that Palaces
+              consistently stick the landing speaks to their overarching talent.
+              The songs are compelling and the grooves crushing.” —
+              <strong>Metal Injection</strong>
+            </div>
+            <div class="press-quote">
+              “The deep undertones of Week’s basslines on ‘Black Pendant’ is
+              thick with pure unadulterated insanity… psychedelic madness that
+              will send you down the rabbit hole.” —
+              <strong>Selective Memory Magazine</strong>
+            </div>
+            <div class="press-quote">
+              “Swarm launches out of the gate with some serious gusto… If you
+              don’t immediately have the urge to disrespect your surroundings,
+              there may be no hope for you.” — <strong>Your Last Rites</strong>
+            </div>
+          </section>
+
+          <section class="panel" style="margin-top: 16px">
+            <h2>Notable Performances / Shared Stages</h2>
+            <p>
+              Primate • Mastodon • Generation of Vipers • Cult Leader • Birds In
+              Row • Ken Mode • Today Is the Day • Godmother • Valient Thorr •
+              Canopy • Leafblower • He Is Legend
+            </p>
+
+            <h2 style="margin-top: 12px">For Fans Of</h2>
+            <p>Converge • Mastodon • Deftones • Gojira</p>
+          </section>
+        </main>
+
+        <aside>
+          <div class="panel">
+            <h2>New Release</h2>
+            <div class="album-art" style="margin-bottom: 10px">
+              <img
+                src="/images/Palaces Cover.png"
+                alt="Sunhunting — Album Art"
+              />
+            </div>
+            <p><strong>Sunhunting</strong><br />Single / Album — 02.27.2026</p>
+            <p style="color: var(--muted); font-size: 14px">
+              Produced by Bill Kelliher • Mixed by Tom Tapley • Mastered by
+              Billy Bowers • Art by Bruce Pennington
+            </p>
+
+            <h2 style="margin-top: 12px">Band</h2>
+            <ul class="members">
+              <li>Jeremy Weeks — Bass</li>
+              <li>Jonathan Balsamo — Drums</li>
+              <li>Eric Searle — Guitar / Vocals</li>
+              <li>Steven Lee McLaughlin — Guitar / Vocals</li>
+            </ul>
+
+            <h2 style="margin-top: 12px">Social Media Links</h2>
+            <div class="links">
+              <a href="http://www.youtube.com/@palacesloud" target="_blank"
+                >YouTube</a
+              >
+              <a href="https://www.instagram.com/palacesloud" target="_blank"
+                >Instagram</a
+              >
+              <a href="https://www.tiktok.com/@palacesloud" target="_blank"
+                >TikTok</a
+              >
+              <a href="https://palaces.bandcamp.com/music" target="_blank"
+                >Bandcamp</a
+              >
+              <a href="https://www.facebook.com/PALACESLOUD/" target="_blank"
+                >Facebook</a
+              ><a href="https://open.spotify.com/album/7MAIVKo8hKwqqawaqvSefK?si=WrdzyRFFTcW2fz49zU8i8A" target="_blank"
+              >Spotify</a
+            >
+            </div>
+
+            <div class="contact">
+              <h2 style="margin-top: 12px">Contact</h2>
+              <div>
+                Booking / Press:<br />
+                esurreal@gmail.com
+              </div>
+            </div>
+
+            <div class="download-row">
+              <a class="btn" href="/images/Palaces Cover.png" download
+                >Download Album Art</a
+              >
+              <a class="btn" href="/images/bandPhoto.png" download
+                >Download Photo</a
+              >
+              <a class="btn" href="/images/logo red stained.png" download
+                >Download Logo</a
+              >
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <small
+          >Palaces — Electronic Press Kit • Layout: Hybrid (clean + dark) • One
+          Sheet / Social Assets included</small
+        >
+      </footer>
+    </div>
+
+    <script>
+      // small helper: allow printing to PDF easily
+      function printEPK() {
+        window.print();
+      }
+    </script>
+  </body>
+</html>
