@@ -5639,9 +5639,11 @@ img {
     border-radius: 0px 0px 0px 0px;
     border: 2px solid #9aadb2;
     filter: drop-shadow(16px 12px 4px #000)
+  }
 
   .bundleImage {
-    width: 100%;
+    align-items: center;
+    width: 90%;
   }
   .youtube {
     width: 90%;
