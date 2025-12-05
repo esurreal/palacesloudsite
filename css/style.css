@@ -3568,11 +3568,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column;
+  flex-direction: column;
   width: 100%;
   background-image: url("/images/blackGrayBackground.jpg");
   background-color: #32000095;
-  background-repeat: no-repeat;
+  background-repeat:inherit;
   background-size: cover;
   padding-bottom: 32px;
   margin-bottom: 24px;
@@ -3580,6 +3580,9 @@ img {
   margin-right: 20%;
 }
 .news-type-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #9aadb2;
   text-align: center;
   font-family: Exo, sans-serif;
@@ -3592,19 +3595,35 @@ img {
   filter: drop-shadow(16px 12px 4px #000)
 }
 .newsBox1 {
-  display: flex;
+  display: flexbox;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 50%;
   padding: 20px;
 }
 .news-heading {
   color: #9aadb2;
-  text-align: center;
+  text-align:center;
   padding-top: 26px;
   font-family: Oldclaudelpstd, Arial, sans-serif;
 }
 
+.bundleImage {
+  width: 20rem;
+  margin-top: 2rem;
+  border: #9aadb2;
+  border-style:solid;
+  border-width: 2px;
+}
+
+.orderHere {
+  color:#9aadb2;  
+}
+
+.orderHere:hover {
+  color: rgb(255, 255, 255);
+}
 .shows-type-heading {
   display: flex;
   flex-direction: column;
@@ -5590,10 +5609,39 @@ img {
     overflow: hidden;
   }
   .news-block {
+    font-display:;
     background-image: url("/images/blackGrayBackground.jpg");
     background-color: #32000095;
     width: 100%;
     overflow: hidden;
+  }
+
+  .newsBox1 {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .news-type-heading {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: #9aadb2;
+    text-align:center;
+    font-family: Exo, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #210021;
+    padding: 16px;
+    border-radius: 0px 0px 0px 0px;
+    border: 2px solid #9aadb2;
+    filter: drop-shadow(16px 12px 4px #000)
+
+  .bundleImage {
+    width: 100%;
   }
   .youtube {
     width: 90%;
