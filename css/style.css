@@ -5635,7 +5635,6 @@ img {
     font-size: 20px;
     line-height: 24px;
     background-color: #210021;
-    padding: 16px;
     border-radius: 0px 0px 0px 0px;
     border: 2px solid #9aadb2;
     filter: drop-shadow(16px 12px 4px #000)
@@ -5644,6 +5643,7 @@ img {
   .bundleImage {
     align-items: center;
     width: 90%;
+    margin-left: 16px;
   }
   .youtube {
     width: 90%;
