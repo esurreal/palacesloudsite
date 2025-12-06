@@ -5642,8 +5642,7 @@ img {
 
   .bundleImage {
     align-items: center;
-    width: 90%;
-    margin-left: 16px;
+    width: 100%;
   }
   .youtube {
     width: 90%;
