@@ -3589,7 +3589,6 @@ img {
   width: 100%;
   background-image: url("/images/blackGrayBackground.jpg");
   background-color: #32000095;
-  background-repeat:inherit;
   background-size: cover;
   padding-bottom: 32px;
   margin-bottom: 24px;
@@ -3612,7 +3611,7 @@ img {
   filter: drop-shadow(16px 12px 4px #000)
 }
 .newsBox1 {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
