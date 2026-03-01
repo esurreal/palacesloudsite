@@ -160,6 +160,9 @@ input {
   line-height: normal;
 }
 
+.toothchipperVid {
+  margin-top: 2rem;
+}
 .sunLink {
   color:black;
   border:#000;
@@ -171,6 +174,22 @@ input {
   margin-top: 1rem;
 }
 .sunLink:hover {
+  color: white;
+  background-color: black;
+}
+
+.revolver {
+  color:black;
+  border:#000;
+  border-style: solid;
+  border-width: 4px;
+  padding: 6px;
+  border-radius: 11px;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.revolver:hover {
   color: white;
   background-color: black;
 }
