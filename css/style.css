@@ -164,8 +164,8 @@ input {
   margin-top: 2rem;
 }
 .sunLink {
-  color:black;
-  border:#000;
+  color: black;
+  border: #000;
   border-style: solid;
   border-width: 4px;
   padding: 6px;
@@ -179,8 +179,8 @@ input {
 }
 
 .revolver {
-  color:black;
-  border:#000;
+  color: black;
+  border: #000;
   border-style: solid;
   border-width: 4px;
   padding: 6px;
@@ -2105,6 +2105,11 @@ textarea.w-select {
   }
 
   .placeOfLifeVid {
+    width: 90%;
+    height: 12rem;
+  }
+
+  .toothchipperVid {
     width: 90%;
     height: 12rem;
   }
