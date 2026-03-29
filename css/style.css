@@ -2110,7 +2110,7 @@ textarea.w-select {
   }
 
   .toothchipperVid {
-    width: 90%;
+    width: 100%;
     height: 12rem;
   }
 
@@ -3638,6 +3638,22 @@ img {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+.pinnedHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #9aadb2;
+  text-align: center;
+  font-family: Exo, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #210021;
+  padding: 16px;
+  border-radius: 0px 0px 0px 0px;
+  border: 2px solid #9aadb2;
+  filter: drop-shadow(16px 12px 4px #000);
+}
 .news-type-heading {
   display: flex;
   flex-direction: column;
@@ -3661,6 +3677,16 @@ img {
   width: 50%;
   padding: 20px;
 }
+
+.newsBox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+}
+
 .news-heading {
   color: #9aadb2;
   text-align: center;
@@ -3668,6 +3694,11 @@ img {
   font-family: Oldclaudelpstd, Arial, sans-serif;
 }
 
+.vinylAndCdImage {
+  width: 20%;
+  margin: 1rem;
+  outline: 3px solid #9aadb2;
+}
 .bundleImage {
   width: 20rem;
   margin-top: 2rem;
@@ -5680,8 +5711,12 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     padding: 20px;
+  }
+
+  .newsBox2 {
+    width: 90%;
   }
 
   .news-type-heading {
