@@ -2340,7 +2340,7 @@ p {
 }
 
 .doomPoster {
-  color:#9aadb2;
+  color: #9aadb2;
   font-size: 30px;
 }
 
@@ -5635,7 +5635,7 @@ img {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 96%;
     overflow: hidden;
   }
 
@@ -5913,7 +5913,7 @@ img {
     margin-top: 2rem;
   }
   .doomPoster {
-    color:#9aadb2;
+    color: #9aadb2;
     font-size: 20px;
   }
   .menulink {
