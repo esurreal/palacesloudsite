@@ -2339,6 +2339,11 @@ p {
   display: block;
 }
 
+.doomPoster {
+  color:#9aadb2;
+  font-size: 30px;
+}
+
 a {
   color: #00d6b4;
   text-decoration: none;
@@ -3583,7 +3588,7 @@ img {
 }
 
 .div-pastShowsButton {
-  background: rgba(0, 0, 0, 0);
+  background: #210021;
   border-style: solid;
   align-items: center;
   border-radius: 12px;
@@ -3730,6 +3735,7 @@ img {
 .tourPoster {
   width: 50%;
   margin-top: 2rem;
+  border: 3px solid grey;
 }
 .lineBreak2 {
   width: 100%;
@@ -3852,6 +3858,8 @@ img {
   text-align: center;
   padding-top: 26px;
   font-family: Oldclaudelpstd, Arial, sans-serif;
+  display: flex;
+  flex-flow: column;
 }
 
 .shows-type-heading {
@@ -3869,7 +3877,7 @@ img {
   background-color: #32000095;
   background-image: url("/images/blackGrayBackground.jpg");
   flex-flow: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   display: flex;
@@ -5711,16 +5719,17 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 96%;
     padding: 20px;
   }
 
   .newsBox2 {
-    width: 90%;
+    width: 96%;
   }
 
   .news-type-heading {
     display: flex;
+    width: 96%;
     flex-direction: column;
     align-items: center;
     color: #9aadb2;
@@ -5903,7 +5912,10 @@ img {
     width: 100%;
     margin-top: 2rem;
   }
-
+  .doomPoster {
+    color:#9aadb2;
+    font-size: 20px;
+  }
   .menulink {
     z-index: 8;
     height: 100vh;
