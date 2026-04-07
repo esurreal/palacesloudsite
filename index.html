@@ -217,7 +217,54 @@
             src="images/background-20video-20live-20black-20and-20white-transcode1-transcode.webm"
             data-wf-ignore="true"
           />
-        </video>
+        
+        <audio id="bg-music" loop>
+          <source src="images5/Pear Shaped.m4a" type="audio/mpeg" />
+          <source src="audio/your-music-file.ogg" type="audio/ogg" />
+        </audio></video>
+        
+        <!-- Music control button -->
+        <button id="music-toggle" aria-label="Play music">
+          🔇 Music: Pearshaped Live from Star Bar
+        </button>
+        
+        <style>
+          #music-toggle {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            background: rgba(165, 4, 201, 0);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 10px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 14px;
+            backdrop-filter: blur(2px);
+            transition: background 0.2s;
+          }
+        
+          #music-toggle:hover {
+            background: rgba(0, 0, 0, 0);
+          }
+        </style>
+        
+        <script>
+          const audio = document.getElementById('bg-music');
+          const btn = document.getElementById('music-toggle');
+        
+          // Browsers block autoplay with sound — user must interact first
+          btn.addEventListener('click', () => {
+            if (audio.paused) {
+              audio.play();
+              btn.textContent = '🔊 Music: Pearshaped live from The Star Bar';
+            } else {
+              audio.pause();
+              btn.textContent = '🔇 Music: Pearshaped live from The Star Bar';
+            }
+          });
+        </script>
       </div>
     </div>
     
