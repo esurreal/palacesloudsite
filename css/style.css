@@ -183,9 +183,10 @@ input {
   border: #000;
   border-style: solid;
   border-width: 4px;
-  padding: 6px;
+  width: 20%;
+  padding: 1px;
   border-radius: 11px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-top: 1rem;
 }
 
@@ -5629,6 +5630,23 @@ img {
   .hellas-chasma-image,
   .wes-image {
     max-width: 75%;
+  }
+
+  .revolver {
+    color: black;
+    border: #000;
+    border-style: solid;
+    border-width: 4px;
+    width: 60%;
+    padding: 1px;
+    border-radius: 11px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+  }
+
+  .revolver:hover {
+    color: white;
+    background-color: black;
   }
 
   .music-block {
