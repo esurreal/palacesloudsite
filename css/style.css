@@ -2616,6 +2616,10 @@ img {
   display: block;
 }
 
+.endlessMetal {
+  width: 70%;
+}
+
 .left-column {
   color: #fff;
   padding-right: 40px;
